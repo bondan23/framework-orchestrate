@@ -1,0 +1,10 @@
+module SpaceKit_Headers {
+  export *
+  header "/Users/bondanprasetyo/Documents/SwiftPlayground/FrameworkOrchestration/SpaceKit/Astronaut.h"
+}
+
+module SpaceKit_Headers.Swift {
+  export *
+  header "/Users/bondanprasetyo/Documents/SwiftPlayground/FrameworkOrchestration/artifacts/SpaceKit-Swift.h"
+  requires objc
+}
