@@ -5,3 +5,5 @@ ditto -rsrc artifacts/$FRAMEWORK_NAME.swiftmodule Frameworks/$FRAMEWORK_NAME.fra
 
 ditto -rsrc artifacts/$FRAMEWORK_NAME.swiftdoc Frameworks/$FRAMEWORK_NAME.framework/Versions/A/Modules/$FRAMEWORK_NAME.swiftmodule/x86_64.swiftdoc
 ditto -rsrc artifacts/$FRAMEWORK_NAME.swiftmodule Frameworks/$FRAMEWORK_NAME.framework/Versions/A/Modules/$FRAMEWORK_NAME.swiftmodule/x86_64.swiftmodule
+
+echo "Copy switmodule & copy swiftdoc to framework"

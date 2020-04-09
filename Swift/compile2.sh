@@ -1,0 +1,1 @@
+swiftc main.swift -I ../SpaceKit_Headers.modulemaps/ -I ../SpaceKit.swiftmodule/ -L ../ -lSpaceKit -o main

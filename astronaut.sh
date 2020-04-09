@@ -1,1 +1,2 @@
 clang -x objective-c -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu11 -fobjc-arc -fobjc-weak -fmodules -gmodules -fmodule-name=SpaceKit -c SpaceKit/Astronaut.m -o artifacts/Astronaut.o
+echo "Success Compiling Astronout.m"

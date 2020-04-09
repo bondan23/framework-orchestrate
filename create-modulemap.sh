@@ -29,3 +29,4 @@ EOF
 
 mv unextended-module.modulemap Frameworks/$FRAMEWORK_NAME.framework/Modules/module.modulemap
 
+echo "Success create modulemap"
